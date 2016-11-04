@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="app.com.tringuyen.dialogexample.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <!--<Button-->
+        <!--android:id="@+id/basicDialogButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Basic alert dialog"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/listBasicDialogButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Dialog with list" />-->
+
+    <EditText
+        android:id="@+id/edit_text_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/customeDialogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custome dialog" />
+    <TextView
+        android:text="default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogInfo"
+        android:layout_marginTop="24dp"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+</LinearLayout>
